@@ -20,13 +20,14 @@
         flex-grow: 1;
       }
       .player-button {
+        color: white;
+        background-color: transparent;
         margin: 10px;
         width: 20px;
         height: 20px;
         border-style: none;
         cursor: pointer;
-        color: white;
-        background-color: transparent;
+
       }
       .control-panel {
         padding-right: 10px;
@@ -36,9 +37,15 @@
 
       }
       .progress-line {
+        background-color: grey;
+        margin: 20px;
+        height: 20%;
         flex-grow: 1;
       }
-
+      .progress-slider {
+        background-color: red;
+        height: 100%;
+      }
     </style>
 
   </head>
@@ -60,7 +67,9 @@
             <i class="fa fa-volume-up fa-2x" aria-hidden="true"></i>
           </button>
         </div>
-        <div class="progress-line"></div>
+        <div class="js-progress progress-line">
+          <div class="js-progress-slider progress-slider"></div>
+        </div>
         <div class="right-buttons">
           <button class="js-fullscreen-button player-button fullscreen">
             <i class="fa fa-expand fa-2x" aria-hidden="true"></i>
@@ -81,3 +90,5 @@
 
   </body>
 </html>
+
+
