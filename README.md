@@ -9,5 +9,5 @@ $ pip install -r requirementss.txt
 ```
 Перейдите в директорию выше и запустите командой:
 ```
-$ liveroad  ITerekhov98.github.io
+$ livereload  ITerekhov98.github.io
 ```
