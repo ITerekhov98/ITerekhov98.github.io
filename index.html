@@ -20,6 +20,10 @@
         flex-grow: 1;
       }
       .control-panel .player-button {
+        margin: 10px;
+        margin-bottom: 30px;
+        width: 10px;
+        height: 10px;
         border-style: none;
         cursor: pointer;
         color: white;
@@ -32,18 +36,20 @@
     <div id="player" class ="player-container">
       <div class="js-video-container player-screen"></div>
       <div class="control-panel">
-        <button class="js-play-button player-button play">
-          <i class="fa fa-play fa-2x" aria-hidden="true"></i>
-        </button>
-        <button class="js-pause-button player-button pause">
-          <i class="fa fa-pause fa-2x" aria-hidden="true"></i>
-        </button>
-        <button class="js-volume-button player-button volume">
-          <i class="fa fa-volume-off fa-2x" aria-hidden="true"></i>
-        </button>
-        <button class="js-mute-button player-button mute">
-          <i class="fa fa-volume-up fa-2x" aria-hidden="true"></i>
-        </button>
+        <div class="left-buttons">
+          <button class="js-play-button player-button play">
+            <i class="fa fa-play fa-2x" aria-hidden="true"></i>
+          </button>
+          <button class="js-pause-button player-button pause">
+            <i class="fa fa-pause fa-2x" aria-hidden="true"></i>
+          </button>
+          <button class="js-volume-button player-button volume">
+            <i class="fa fa-volume-off fa-2x" aria-hidden="true"></i>
+          </button>
+          <button class="js-mute-button player-button mute">
+            <i class="fa fa-volume-up fa-2x" aria-hidden="true"></i>
+          </button>
+      </div>
       </div>
       <!-- Here can be placed player controls: play and volume buttons -->
     </div>
