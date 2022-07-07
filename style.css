@@ -1,3 +1,5 @@
+@import "normalize.css";
+
 .player-container {
     width: 800px;
     height: 600px;
@@ -45,6 +47,7 @@
     margin-right: 10px;
     border-radius: 2px;
     height: 5px;
+    cursor: pointer;
   }
   .progress-slider {
     background-color: red;
@@ -68,4 +71,21 @@
     display: inline-block;
     margin-top: -5px;
     margin-left: -8px;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .viewing-panel:hover .dot {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    display: inline-block;
+    margin-top: -5px;
+    margin-left: -8px;
+    opacity: 1;
   }
