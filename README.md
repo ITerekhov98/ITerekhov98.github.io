@@ -8,5 +8,5 @@ $ pip install -r requirementss.txt
 ```
 Перейдите в директорию выше и запустите командой:
 ```
-$ livereload  ITerekhov98.github.io
+$ livereload  custom-videoplayer
 ```
