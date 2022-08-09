@@ -1,5 +1,4 @@
 # ITerekhov98.github.io
-## [Ссылка на Github Pages](https://iterekhov98.github.io/) 
 
 ## Запуск и установка
 
